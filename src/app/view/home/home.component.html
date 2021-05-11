@@ -1,16 +1,31 @@
-<p>home works!</p>
-<div class="btn-group" dropdown>
-    <button id="button-basic" dropdownToggle type="button" class="btn btn-primary dropdown-toggle"
-            aria-controls="dropdown-basic">
-        Button dropdown <span class="caret"></span>
-    </button>
-    <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu"
-        role="menu" aria-labelledby="button-basic">
-        <li role="menuitem"><a class="dropdown-item" href="#">Action</a></li>
-        <li role="menuitem"><a class="dropdown-item" href="#">Another action</a></li>
-        <li role="menuitem"><a class="dropdown-item" href="#">Something else here</a></li>
-        <li class="divider dropdown-divider"></li>
-        <li role="menuitem"><a class="dropdown-item" href="#">Separated link</a>
-        </li>
-    </ul>
+<img [src]="imagemBack" alt="" class="img">
+<div class="container-fluid align-items-center">
+    <img class="iconeUpa" src="../../../assets/home/upadbz2.png" alt="WPN" 
+        style="
+            width:10%;
+            border-radius: 100%;
+            position: absolute;
+            top: 25%;
+            left: 45%;
+            ">
+    <div class="container-fluid"  style="top: 48%; left: 41%; position: absolute;">
+        <label for="iconeUpa" name="wellington nascimento" class="labelWellington" >Wellington Nascimento</label>
+    </div>
+    <div class="container-fluid"  style="top: 56%; left: 28%; position: absolute;">
+        <button class="btn-home" style="width: 103px; height: 44px;">HOME</button>
+        <button class="btn-home" style="width: 101px; height: 44px;">ABOUT</button>
+        <button class="btn-home" style="width: 101px; height: 44px;">SKILLS</button>
+        <button class="btn-home" style="width: 130px; height: 44px;">CONTACT</button>
+    </div>
 </div>
+
+<!--EAE Brunão! aqui é um flexbox que eu tava testando pra melhor posicionar os itens na tela-->
+<!-- <button id="ativar" (click)="animar()">ATIVAR</button>
+<div id="modal" #modalAnimar class="animar">
+    <h1>Login</h1>
+    <label for="">Nome:</label>
+    <input type="text">
+    <label for="">Email</label>
+    <input type="text">
+    <button>Logar</button>
+</div> -->
