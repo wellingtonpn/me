@@ -1,8 +1,16 @@
-.img{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: -99999;
+.centralizar{
+    padding: 20px;
+    background:transparent;
+    border-radius: 4px;
+    // box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    max-width: 500px;
+    margin: 150px auto;
+    opacity: 100;
+    text-align: center;
+    // transform: translateX(-20);
+}
+.iconeUpa{
+    margin-right: 20px;
 }
 .iconeUpa:hover {
     animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
@@ -11,7 +19,6 @@
     perspective: 1000px;
     cursor: pointer;
 }
-
 @keyframes shake {
     10%, 90% {
         transform: translate3d(-1px, 0, 0);
@@ -37,12 +44,12 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 10px;
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 15px;
+    line-height: 23px;
     letter-spacing: -0.02em;
     color: rgba(255, 255, 255, 0.7);
 }
@@ -50,15 +57,11 @@
     font-family: Roboto Slab;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
-    line-height: 32px;
-    /* identical to box height */
-
-    text-align: center;
+    font-size: 18px;
+    line-height: 28px;
     letter-spacing: -0.02em;
-
+    margin-right: 9px;
     color: #FFFFFF;
-
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 // #ativar{
