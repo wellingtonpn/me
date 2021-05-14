@@ -2,3 +2,9 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
+
+router-outlet ~ * {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
