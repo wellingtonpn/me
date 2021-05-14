@@ -15,6 +15,6 @@ export class HomeComponent implements OnInit, AfterViewInit {
   ngOnInit(): void {
   }
   ngAfterViewInit(){
-    this.elementRef.nativeElement.ownerDocument.body.style.backgroundColor = '#008C8C';
+    // this.elementRef.nativeElement.ownerDocument.body.style.backgroundColor = '#008C8C';
   }
 }
