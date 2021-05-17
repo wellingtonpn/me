@@ -9,6 +9,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { HomePresentationComponent } from './view/home/home-presentation/home-presentation.component';
+import { AboutComponent } from './view/about/about.component';
+import { SkillsComponent } from './view/skills/skills.component';
+import { ContactComponent } from './view/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +19,9 @@ import { HomePresentationComponent } from './view/home/home-presentation/home-pr
     ErrorComponent,
     HomeComponent,
     HomePresentationComponent,
+    AboutComponent,
+    SkillsComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
