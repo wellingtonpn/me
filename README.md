@@ -1,1 +1,1 @@
-Projeto pessoal para aprendizado em angular
+Projeto pessoal
